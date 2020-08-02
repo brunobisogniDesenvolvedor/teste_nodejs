@@ -1,16 +1,15 @@
 require("dotenv").config();
 
-
-
 const mongoose = require("mongoose");
 const express = require("express");
+const bodyParser = require("body-parser");
+const morgan = require("morgan")''
 mongoose.Promise = require('bluebird');
 const router = express.Router();
 const app = express();
 
 const http = require("http").Server(app);
 const setupWebSocket = require("./setup-websocket");
-mongoose.connect('mongodb+srv://admin:imgcrawler@cluster0.as2fg.mongodb.net/imgcrawler?retryWrites=true&w=majority')
 const Schema = mongoose.Schema;
 app.use(express.json());
 setupWebSocket(http);
