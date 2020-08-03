@@ -1,6 +1,0 @@
-AWS_ACCESS_KEY_ID = AKIAVBVG3O6VBSOYFUOO
-AWS_SECRET_ACCESS_KEY = 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
-AWS_DEFAULT_REGION = us-east-1
-MONGODB = mongodb+srv://admin:imgcrawler@cluster0.as2fg.mongodb.net/imgcrawler?retryWrites=true&w=majority
-PORT = 5000
-ENVIROMENT = development

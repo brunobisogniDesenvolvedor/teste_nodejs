@@ -1,34 +1,27 @@
 {
-  "name": "teste_nodejs",
+  "name": "scrapingnode",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "repository": "https://github.com/brunobisogniDesenvolvedor/teste_nodejs.git",
-  "author": "bruno bisogni <brunobisogni4@gmail.com>",
-  "license": "MIT",
   "scripts": {
-    "dev": " nodemon src/index.js",
-    "production": "nodemon dashboard/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.724.0",
-    "bluebird": "^3.7.2",
-    "crypto": "^1.0.1",
+    "aws-sdk": "^2.723.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.9.27",
-    "morgan": "^1.10.0",
+    "mongoose": "^5.9.26",
+    "multer": "^1.4.2",
     "multer-s3": "^2.9.0",
     "puppeteer": "^5.2.1",
     "request": "^2.88.2",
     "socket.io": "^2.3.0"
   },
   "devDependencies": {
-    "@types/express": "^4.17.7",
-    "eslint": "6.8.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "nodemon": "^2.0.4",
-    "prettier": "^2.0.5",
-    "typescript": "^3.9.7"
+    "nodemon": "^2.0.4"
   }
 }
